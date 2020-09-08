@@ -1,0 +1,32 @@
+create table test3(usn integer primary key,name 
+varchar(20),phonenumber integer,branch          
+varchar(20));
+insert into test3                            
+values(15,'shreya',98123476,'cs');
+insert into test3                             
+values(16,'priya',45871290, 'ec');
+insert into test3                               
+values(17,'reshma',98712345,'is');
+insert into test3                               
+values(18,'shravya',237186459,'ec');
+  
+
+
+ select * from test3
+    
+    
+     
+    
+    
+                                                                   
+
+| usn | name    | phonenumber | branch |
+| --- | ------- | ----------- | ------ |
+| 15  | shreya  | 98123476    | cs     |
+| 16  | priya   | 45871290    | ec     |
+| 17  | reshma  | 98712345    | is     |
+| 18  | shravya | 237186459   | ec     |
+
+
+
+                                                                                                      
